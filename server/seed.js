@@ -16,11 +16,11 @@ const seedDatabase = async () => {
     
     console.log('Creating users...');
     
-    // Create owner/admin (Sumant Yadav)
+    // Create owner/admin
     const admin = await User.create({
-      name: 'Sumant Yadav',
-      email: 'sumantyadav3086@gmail.com',
-      password: 'admin123',
+      name: process.env.ADMIN_NAME || 'Admin User',
+      email: process.env.ADMIN_EMAIL || 'admin@example.com',
+      password: process.env.ADMIN_PASSWORD || 'changeMe123',
       role: 'ADMIN',
       department: 'Administration',
     });
@@ -88,10 +88,9 @@ const seedDatabase = async () => {
     
     console.log('✅ Database seeded successfully!');
     console.log('\n🔐 Login credentials:');
-    console.log('👑 Owner: sumantyadav3086@gmail.com / admin123');
+    console.log(`👑 Admin: ${admin.email} / [password from env]`);
     console.log('👨‍🏫 Faculty: faculty@example.com / faculty123');
     console.log('👨‍🎓 Student: alice@example.com / student123');
-    console.log('\n📞 Contact: +91 9599617479');
     
     process.exit(0);
   } catch (error) {

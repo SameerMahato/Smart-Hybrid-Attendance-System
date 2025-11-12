@@ -19,19 +19,13 @@ export default function Footer() {
         
         <div className="flex items-center space-x-6">
           <a
-            href="mailto:sumantyadav3086@gmail.com"
+            href="https://github.com/Sumant3086"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center space-x-1 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors"
           >
             <Mail size={14} />
-            <span>sumantyadav3086@gmail.com</span>
-          </a>
-          
-          <a
-            href="tel:+919599617479"
-            className="flex items-center space-x-1 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors"
-          >
-            <Phone size={14} />
-            <span>+91 9599617479</span>
+            <span>Contact via GitHub</span>
           </a>
         </div>
       </div>
