@@ -28,6 +28,7 @@ build/
 *.swp
 *.swo
 *~
+*.code-workspace
 
 # Test files
 coverage/
