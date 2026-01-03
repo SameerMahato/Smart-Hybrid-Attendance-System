@@ -140,7 +140,7 @@ export const getStudentAnalytics = async (req, res) => {
  */
 export const exportAttendanceCSV = async (req, res) => {
   try {
-    const { classId, startDate, endDate } = req.query;
+    const {  startDate,classId, endDate } = req.query;
     
     let query = {};
     if (classId) query.class = classId;
