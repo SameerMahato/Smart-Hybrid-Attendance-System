@@ -1,11 +1,14 @@
 # ProxyMukt - Automated Student Attendance System
 
 [![Live Demo]](https://proxymukt.onrender.com)
+
 [![Node.js](https://img.shields.io/badge/Node.js-18+-green)](https://nodejs.org/)
 [![React](https://img.shields.io/badge/React-18+-blue)](https://reactjs.org/)
 [![MongoDB](https://img.shields.io/badge/MongoDB-6+-green)](https://mongodb.com/)
 
 A comprehensive, modern attendance management system designed for educational institutions, featuring QR code scanning, geofencing, real-time analytics, and advanced security measures.
+
+<img width="1914" height="915" alt="image" src="https://github.com/user-attachments/assets/86a432fc-eeeb-482e-8a9c-18116a367b68" />
 
 ## 🎯 Target Audience
 
